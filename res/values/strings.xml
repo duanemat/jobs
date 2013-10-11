@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DashLabsTabPager</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_score">Score</string>
+    <string name="title_mpg">MPG</string>
+    <string name="title_fuel">Fuel</string>
+    <string name="title_distance">Distance</string>
+    <string name="fuel_label_month_spending">Total amount spent this month</string>
+    <string name="fuel_label_week_spending">Total amount spent this week</string>
+    <string name="fuel_label_year_spending">Total amount spent this year</string>
+    <string name="fuel_label_month_savings">Change since last month</string>
+    <string name="fuel_label_week_savings">Change since last week</string>
+    <string name="fuel_label_year_savings">Change since last year</string>
+    <string name="fuel_button_year">Year</string>
+    <string name="fuel_button_month">Month</string>
+    <string name="fuel_button_week">Week</string>
+
+</resources>

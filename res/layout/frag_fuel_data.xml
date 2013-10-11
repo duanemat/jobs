@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="@integer/mpg_weight_left" 
+        android:gravity="bottom">
+
+        <TextView
+            android:id="@+id/fuel_spending_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/fuel_spending"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fuel_spending_label"
+            android:drawableLeft="@drawable/gaspump"
+            android:gravity="center_vertical|center"
+            android:text=""
+            android:textSize="@dimen/fuel_spending_text_size" >
+        </TextView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="@integer/mpg_weight_right" 
+        android:gravity="bottom">
+
+        <TextView
+            android:id="@+id/fuel_savings_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fuel_label_month_savings" />
+        
+         <TextView
+            android:id="@+id/fuel_savings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fuel_savings_label"
+            android:drawableLeft="@drawable/arrow_down_float"
+            android:gravity="center_vertical|center"
+            android:text="$123"
+            android:textSize="@dimen/fuel_savings_text_size" >
+        </TextView>
+    </RelativeLayout>
+
+</LinearLayout>
