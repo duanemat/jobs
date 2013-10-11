@@ -8,7 +8,7 @@
 
     <fragment
         android:id="@+id/fuel_data_fragment"
-        android:name="com.matt.dashlabpager.fragments.FuelFragmentData"
+        android:name="com.matt.dashlabpager.main.fragments.FuelFragmentData"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" 
         android:layout_marginRight="@dimen/activity_horizontal_margin"
@@ -60,7 +60,7 @@
 
     <fragment
         android:id="@+id/fuel_chart_fragment"
-        android:name="com.matt.dashlabpager.fragments.FuelFragmentChart"
+        android:name="com.matt.dashlabpager.main.fragments.FuelFragmentChart"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" 
         android:layout_marginRight="@dimen/activity_horizontal_margin"
